@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Length Converter
+        </title>
+    </head>
+    <body>
+        <header>
+            LENGTH CONVERTER
+        </header>
+        <div class="container1">
+            <div class="converter1">
+                <p>
+                    <label>Feet:</label>
+                    <input id="inputFeet" type="number1" placeholder="Enter length in feet"
+                    oninput="lengthConverter1(this.value)">
+                </p>
+                <p>Centimeter: <span id="outputMeters"></span></p>    
+            </div>
+        </div>
+        <div class="container2">
+            <div class="converter2">
+                <p>
+                    <label>Centimeter:</label>
+                    <input id="inputCentimeter" type="number2" placeholder="Enter length in cm"
+                    oninput="lengthConverter2(this.value)">
+                </p>
+                <p>Feet: <span id="outputCentimeters"></span></p>
+            </div>
+        </div>
+        <footer>
+            Made by Rhea Dsouza
+        </footer>
+        
+    </body>
+    <script src="function.js"></script>
+</html>
