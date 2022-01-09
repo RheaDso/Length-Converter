@@ -11,32 +11,37 @@
     </head>
     <body>
         <header>
-            LENGTH CONVERTER
+            <div class="head">
+                LENGTH CONVERTER
+            </div>
         </header>
         <div class="container1">
             <div class="converter1">
                 <p>
-                    <label>Feet:</label>
-                    <input id="inputFeet" type="number1" placeholder="Enter length in feet"
+                    <div class="name1">Feet to Centimeter conversion</div>
+                    <label>Feet</label>
+                    <input id="inputFeet" class="bar1" type="number1" placeholder="Enter length in feet"
                     oninput="lengthConverter1(this.value)">
                 </p>
-                <p>Centimeter: <span id="outputMeters"></span></p>    
+                <p>Centimeter  <span id="outputMeters"></span></p>    
             </div>
         </div>
         <div class="container2">
             <div class="converter2">
                 <p>
-                    <label>Centimeter:</label>
-                    <input id="inputCentimeter" type="number2" placeholder="Enter length in cm"
+                    <div class="name2">Centimeter to Feet conversion</div>
+                    <label>Centimeter</label>
+                    <input id="inputCentimeter" class="bar2" type="number2" placeholder="Enter length in cm"
                     oninput="lengthConverter2(this.value)">
                 </p>
-                <p>Feet: <span id="outputCentimeters"></span></p>
+                <p>Feet  <span id="outputCentimeters"></span></p>
             </div>
         </div>
         <footer>
-            Made by Rhea Dsouza
+            <div class="foot">
+                Made by Rhea Dsouza
+            </div>
         </footer>
-        
     </body>
     <script src="function.js"></script>
 </html>
