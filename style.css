@@ -83,7 +83,7 @@ footer{
 .foot{
     text-align: center;
     font-size: large;
-    padding-top:  15px;
+    padding-top: 20px;
 }
 ::-webkit-scrollbar{
     width: .5rem;
